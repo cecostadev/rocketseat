@@ -1,0 +1,38 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    width: 45rem;
+    max-width: 736px;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: var(--gray-600);
+    border: 1px solid var(--gray-450);
+    display: flex;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    justify-content:  space-between;
+    gap: 5px;
+    align-items: center;
+}
+
+.content a {
+    border: 0;
+    cursor: pointer;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+
+    .content {
+        width: 85%;
+
+    }
+}

@@ -1,0 +1,46 @@
+.newTask {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: -1.25rem;
+}
+
+.newTask input {
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    border: 0;
+    background: var(--gray-600);
+    font-size: 0.75rem;
+    width: 39rem;
+}
+
+.newTask button {
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    border: 0;
+    background: var(--dark-blue-100);
+    color: var(--white);
+    cursor: pointer;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+@media(max-width:768px) {
+
+    .newTask {
+        width: 100%;
+        justify-content:center;
+        align-items: center;
+
+    }
+
+    .newTask input {
+        border-radius: 6px;
+        border: 0;
+        background: var(--gray-600);
+        font-size: 0.75rem;
+        width: 60%;
+
+    }
+}

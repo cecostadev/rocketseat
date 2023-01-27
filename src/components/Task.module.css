@@ -1,0 +1,48 @@
+.task {
+    display: flex;
+    margin-top: 2.5rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.task div {
+
+    font-size: 0.8rem;
+    width: 45rem;
+    max-width: 736px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom:1px solid var(--gray-600);
+    padding-bottom: 1.5rem;
+    color:var(--ice-blue-100);
+    font-weight: bold;
+}
+
+.counter {
+    font-size: 0.75rem;
+    background-color: var(--gray-600);
+    display: inline-block;
+    min-width: 20px;
+    color: var(--white);
+    border-radius: 999px;
+    text-align: center;
+    padding: 2px 5px 2px 5px;
+}
+
+@media(max-width:768px) {
+
+    .task div  {
+        width: 85%;
+
+    }
+    .newTask input {
+        border-radius: 6px;
+        border: 0;
+        background: var(--gray-600);
+        font-size: 0.75rem;
+        width: 60%;
+
+    }
+}
